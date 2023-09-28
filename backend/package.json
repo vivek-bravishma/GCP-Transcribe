@@ -1,0 +1,32 @@
+{
+  "name": "google-cloud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=PRODUCTION node ./src/index.js",
+    "dev": "cross-env NODE_ENV=DEVELOPMENT nodemon ./src/index.js",
+    "dev_docs": "cross-env NODE_ENV=DEVELOPMENT node ./src/docs/swagger.js",
+    "docs": "cross-env NODE_ENV=PRODUCTION node ./src/docs/swagger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "@babel/register": "^7.22.5",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "swagger-autogen": "^2.23.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

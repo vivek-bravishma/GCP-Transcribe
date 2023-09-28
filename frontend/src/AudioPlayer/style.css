@@ -1,0 +1,33 @@
+.audio-plr-container {
+}
+
+.audio-plr-btn {
+	outline: none;
+	height: 40px;
+	text-align: center;
+	width: 130px;
+	border-radius: 40px;
+	background: #fff;
+	border: 2px solid rgb(43, 86, 255);
+	color: rgb(43, 86, 255);
+	letter-spacing: 1px;
+	text-shadow: 0;
+
+	font-size: 12px;
+	font-weight: bold;
+
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+
+.audio-plr-btn:hover {
+	color: white;
+	background: rgb(43, 86, 255);
+}
+.audio-plr-btn:active {
+	letter-spacing: 2px;
+}
+
+.audio-plr-adyotg {
+	display: none;
+}
